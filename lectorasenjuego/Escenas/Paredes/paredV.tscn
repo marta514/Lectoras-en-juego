@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cj0l33fhawxvq"]
+
+[ext_resource type="Texture2D" uid="uid://ct7oo2n3yn16j" path="res://Escenas/Paredes/paredV.png" id="1_7wd5a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ersd"]
+size = Vector2(6.60663, 43.7601)
+
+[node name="paredv" type="StaticBody2D"]
+
+[node name="ParedV" type="Sprite2D" parent="."]
+position = Vector2(177.25, 229.75)
+scale = Vector2(6.20588, 6.85556)
+texture = ExtResource("1_7wd5a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(171.5, 227)
+scale = Vector2(6.20588, 6.85555)
+shape = SubResource("RectangleShape2D_7ersd")

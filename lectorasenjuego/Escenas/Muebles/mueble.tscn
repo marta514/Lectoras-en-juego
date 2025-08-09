@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr2cbf524mfms"]
+
+[ext_resource type="Texture2D" uid="uid://dnr6s83ym2qsk" path="res://Escenas/Muebles/cama.png" id="1_r4grg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fqcp8"]
+size = Vector2(13.913, 22.031)
+
+[node name="mueble" type="StaticBody2D"]
+
+[node name="Cama" type="Sprite2D" parent="."]
+position = Vector2(92, 155)
+scale = Vector2(7.1875, 8.35185)
+texture = ExtResource("1_r4grg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(92, 150)
+scale = Vector2(7.1875, 8.35185)
+shape = SubResource("RectangleShape2D_fqcp8")

@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://ctw57tmrlylgr"]
+
+[ext_resource type="PackedScene" uid="uid://b5306ca4p8rrx" path="res://Escenas/fondo/suelo.tscn" id="1_b4x6x"]
+[ext_resource type="PackedScene" uid="uid://cr2cbf524mfms" path="res://Escenas/Muebles/mueble.tscn" id="2_kon7m"]
+[ext_resource type="PackedScene" uid="uid://cwseexgj4svn" path="res://Escenas/Objetos a Recolectar/obj_recolectar.tscn" id="3_jivys"]
+[ext_resource type="PackedScene" uid="uid://8k1rnbfnov1h" path="res://Escenas/Paredes/paredh.tscn" id="4_lybdm"]
+[ext_resource type="PackedScene" uid="uid://cj0l33fhawxvq" path="res://Escenas/Paredes/paredV.tscn" id="5_scbqq"]
+[ext_resource type="PackedScene" uid="uid://dnnr5mvgo83ts" path="res://Escenas/Personaje/personaje.tscn" id="6_njupw"]
+
+[node name="nivel" type="Node2D"]
+
+[node name="suelo" parent="." instance=ExtResource("1_b4x6x")]
+position = Vector2(0, 11)
+
+[node name="mueble" parent="." instance=ExtResource("2_kon7m")]
+position = Vector2(10, 276)
+
+[node name="mueble2" parent="." instance=ExtResource("2_kon7m")]
+position = Vector2(466, 14)
+
+[node name="objRecolectar" parent="." instance=ExtResource("3_jivys")]
+position = Vector2(168, 120)
+
+[node name="objRecolectar2" parent="." instance=ExtResource("3_jivys")]
+position = Vector2(556, 462)
+
+[node name="pared" parent="." instance=ExtResource("4_lybdm")]
+position = Vector2(130, 512)
+scale = Vector2(1.37873, 0.977629)
+
+[node name="pared2" parent="." instance=ExtResource("4_lybdm")]
+position = Vector2(112, -98)
+scale = Vector2(1.58026, 0.811766)
+
+[node name="paredv" parent="." instance=ExtResource("5_scbqq")]
+position = Vector2(-142, -220)
+scale = Vector2(0.963442, 2.44866)
+
+[node name="paredv2" parent="." instance=ExtResource("5_scbqq")]
+position = Vector2(490, -174)
+scale = Vector2(1.04552, 2.30141)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("6_njupw")]
+position = Vector2(414, 330)

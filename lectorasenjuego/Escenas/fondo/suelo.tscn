@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5306ca4p8rrx"]
+
+[ext_resource type="Texture2D" uid="uid://djgeagarrspo7" path="res://Escenas/fondo/suelo.png" id="1_onsiw"]
+
+[node name="suelo" type="StaticBody2D"]
+
+[node name="Suelo" type="Sprite2D" parent="."]
+position = Vector2(345, 322)
+scale = Vector2(14.4375, 13.6667)
+texture = ExtResource("1_onsiw")

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnnr5mvgo83ts"]
+
+[ext_resource type="Texture2D" uid="uid://bue8t4bi8pasf" path="res://Escenas/Personaje/gato.png" id="1_pdvll"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1hvyv"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Gato" type="Sprite2D" parent="."]
+position = Vector2(147, 101)
+scale = Vector2(8.33333, 8.48)
+texture = ExtResource("1_pdvll")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(147, 101)
+scale = Vector2(5.35714, 4.24)
+shape = SubResource("CapsuleShape2D_1hvyv")
