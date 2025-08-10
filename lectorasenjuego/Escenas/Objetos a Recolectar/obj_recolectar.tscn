@@ -1,18 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://cwseexgj4svn"]
+[gd_scene load_steps=4 format=3 uid="uid://cwseexgj4svn"]
 
 [ext_resource type="Texture2D" uid="uid://cnkch32tbhhb3" path="res://Escenas/Objetos a Recolectar/Egg_item.png" id="1_ec2bm"]
+[ext_resource type="Script" path="res://Escenas/Objetos a Recolectar/obj_recolectar.gd" id="1_edty8"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_45o6a"]
-radius = 12.0
-height = 48.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8nts4"]
 
-[node name="objRecolectar" type="RigidBody2D"]
+[node name="objRec" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_edty8")
 
 [node name="EggItem" type="Sprite2D" parent="."]
-position = Vector2(26, 93)
-scale = Vector2(-1.63446, 3.14356)
+position = Vector2(148, 113)
+scale = Vector2(2.50535, 3.10311)
 texture = ExtResource("1_ec2bm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(26, 93)
-shape = SubResource("CapsuleShape2D_45o6a")
+position = Vector2(148, 114)
+scale = Vector2(1.84321, -1.65154)
+shape = SubResource("CapsuleShape2D_8nts4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

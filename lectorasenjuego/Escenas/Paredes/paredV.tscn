@@ -6,6 +6,8 @@
 size = Vector2(6.60663, 43.7601)
 
 [node name="paredv" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
 
 [node name="ParedV" type="Sprite2D" parent="."]
 position = Vector2(177.25, 229.75)

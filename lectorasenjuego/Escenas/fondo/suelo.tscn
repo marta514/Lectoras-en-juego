@@ -5,6 +5,7 @@
 [node name="suelo" type="StaticBody2D"]
 
 [node name="Suelo" type="Sprite2D" parent="."]
+light_mask = 128
 position = Vector2(345, 322)
 scale = Vector2(14.4375, 13.6667)
 texture = ExtResource("1_onsiw")
