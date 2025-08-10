@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cwseexgj4svn"]
 
 [ext_resource type="Texture2D" uid="uid://cnkch32tbhhb3" path="res://Escenas/Objetos a Recolectar/Egg_item.png" id="1_ec2bm"]
-[ext_resource type="Script" path="res://Escenas/Objetos a Recolectar/obj_recolectar.gd" id="1_edty8"]
+[ext_resource type="Script" uid="uid://bs6p7map1flt8" path="res://Escenas/Objetos a Recolectar/obj_recolectar.gd" id="1_edty8"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8nts4"]
 

@@ -1,16 +1,15 @@
-[gd_scene load_steps=12 format=3 uid="uid://ctw57tmrlylgr"]
+[gd_scene load_steps=11 format=3 uid="uid://ctw57tmrlylgr"]
 
 [ext_resource type="PackedScene" uid="uid://b5306ca4p8rrx" path="res://Escenas/fondo/suelo.tscn" id="1_b4x6x"]
-[ext_resource type="Script" path="res://Escenas/nivel.gd" id="1_prtc2"]
+[ext_resource type="Script" uid="uid://ct7vy8golqmgv" path="res://Escenas/nivel.gd" id="1_prtc2"]
 [ext_resource type="PackedScene" uid="uid://cr2cbf524mfms" path="res://Escenas/Muebles/mueble.tscn" id="2_kon7m"]
 [ext_resource type="PackedScene" uid="uid://cwseexgj4svn" path="res://Escenas/Objetos a Recolectar/obj_recolectar.tscn" id="3_jivys"]
 [ext_resource type="PackedScene" uid="uid://8k1rnbfnov1h" path="res://Escenas/Paredes/paredh.tscn" id="4_lybdm"]
 [ext_resource type="PackedScene" uid="uid://cj0l33fhawxvq" path="res://Escenas/Paredes/paredV.tscn" id="5_scbqq"]
 [ext_resource type="PackedScene" uid="uid://dnnr5mvgo83ts" path="res://personaje.tscn" id="6_njupw"]
-[ext_resource type="Script" path="res://Escenas/Personaje/personaje.gd" id="7_f5rcm"]
-[ext_resource type="Script" path="res://Escenas/camera_2d.gd" id="8_47gkd"]
+[ext_resource type="Script" uid="uid://i8xmw8lxpj51" path="res://Escenas/Personaje/personaje.gd" id="7_f5rcm"]
+[ext_resource type="Script" uid="uid://crcco1xvsai5x" path="res://Escenas/camera_2d.gd" id="8_47gkd"]
 [ext_resource type="PackedScene" uid="uid://b0shmw5ih8vyr" path="res://Escenas/Objetos a Recolectar/objeto_oculto.tscn" id="11_a8tam"]
-[ext_resource type="Script" path="res://Escenas/Objetos a Recolectar/objeto_oculto.gd" id="12_3aebs"]
 
 [node name="nivel" type="Node2D"]
 script = ExtResource("1_prtc2")
@@ -62,14 +61,11 @@ position = Vector2(293, 144)
 [node name="ObjetoOculto1" parent="." instance=ExtResource("11_a8tam")]
 position = Vector2(7, 16)
 collision_mask = 2
-script = ExtResource("12_3aebs")
 
 [node name="ObjetoOculto2" parent="." instance=ExtResource("11_a8tam")]
 position = Vector2(119, 456)
 collision_mask = 2
-script = ExtResource("12_3aebs")
 
 [node name="ObjetoOculto3" parent="." instance=ExtResource("11_a8tam")]
 position = Vector2(311, 52)
 collision_mask = 2
-script = ExtResource("12_3aebs")

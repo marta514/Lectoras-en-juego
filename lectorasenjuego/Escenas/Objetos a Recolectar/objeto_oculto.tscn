@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b0shmw5ih8vyr"]
 
 [ext_resource type="Texture2D" uid="uid://ca7ayd2btryec" path="res://Escenas/Objetos a Recolectar/tronco.png" id="1_28mp8"]
-[ext_resource type="Script" path="res://Escenas/Objetos a Recolectar/objeto_oculto.gd" id="1_mhcm4"]
+[ext_resource type="Script" uid="uid://blt2ker7etqws" path="res://Escenas/Objetos a Recolectar/objeto_oculto.gd" id="1_mhcm4"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h1cso"]
 

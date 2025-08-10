@@ -1,0 +1,32 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1754803814
+icon.svg::CompressedTexture2D/CompressedTexture2D::693325929663178634::1754798000::1754802477::1::::<><><>0<>0<>a79a09f6c3361e935ba4d0d176014b51<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+personaje.tscn::PackedScene::8099640354884423792::1754802497::0::1::::<><><>0<>0<><>::uid://bue8t4bi8pasf::::res://Escenas/Personaje/gato.png
+::res://Escenas/::1754803567
+camera_2d.gd::GDScript/GDScript::5970328301956887219::1754798000::0::1::::<>Camera2D<><>0<>0<><>::
+nivel.gd::GDScript/GDScript::6173809143731363329::1754798000::0::1::::<>Node2D<><>0<>0<><>::
+nivel.tscn::PackedScene::6153725379555446937::1754802502::0::1::::<><><>0<>0<><>::uid://b5306ca4p8rrx::::res://Escenas/fondo/suelo.tscn<>uid://ct7vy8golqmgv::::res://Escenas/nivel.gd<>uid://cr2cbf524mfms::::res://Escenas/Muebles/mueble.tscn<>uid://cwseexgj4svn::::res://Escenas/Objetos a Recolectar/obj_recolectar.tscn<>uid://8k1rnbfnov1h::::res://Escenas/Paredes/paredh.tscn<>uid://cj0l33fhawxvq::::res://Escenas/Paredes/paredV.tscn<>uid://dnnr5mvgo83ts::::res://personaje.tscn<>uid://i8xmw8lxpj51::::res://Escenas/Personaje/personaje.gd<>uid://crcco1xvsai5x::::res://Escenas/camera_2d.gd<>uid://b0shmw5ih8vyr::::res://Escenas/Objetos a Recolectar/objeto_oculto.tscn
+::res://Escenas/fondo/::1754803149
+suelo.png::CompressedTexture2D/CompressedTexture2D::7803591094252965240::1754798000::1754802477::1::::<><><>0<>0<>495c518ebcd8b38eb646e37dfbeec40a<>res://.godot/imported/suelo.png-d2ed1cefa7dd86fd658d5c7ee0acdb17.ctex::
+suelo.tscn::PackedScene::4551461960763649589::1754802496::0::1::::<><><>0<>0<><>::uid://djgeagarrspo7::::res://Escenas/fondo/suelo.png
+::res://Escenas/Libro/::1754803149
+libro.tscn::PackedScene::8872469545783137720::1754802497::0::1::::<><><>0<>0<><>::uid://djgeagarrspo7::::res://Escenas/fondo/suelo.png
+::res://Escenas/Muebles/::1754803149
+cama.png::CompressedTexture2D/CompressedTexture2D::8108727588891433798::1754798000::1754802477::1::::<><><>0<>0<>9ebe9b34555f457cbb731abc924211e9<>res://.godot/imported/cama.png-0e5d8a6b0696cf942f1e9fbc60b79169.ctex::
+mueble.tscn::PackedScene::6021913438598675662::1754802497::0::1::::<><><>0<>0<><>::uid://dnr6s83ym2qsk::::res://Escenas/Muebles/cama.png
+::res://Escenas/Objetos a Recolectar/::1754803569
+Egg_item.png::CompressedTexture2D/CompressedTexture2D::5706075559992504002::1754798000::1754802477::1::::<><><>0<>0<>c304df889c29179a98095d3ef6563a97<>res://.godot/imported/Egg_item.png-e4f7af0a0f727c80f7392417eebf9049.ctex::
+objeto_oculto.gd::GDScript/GDScript::3199378595597457110::1754798000::0::1::::ObjetoRO<>Area2D<><>0<>0<><>::
+objeto_oculto.tscn::PackedScene::4178748224925206157::1754802497::0::1::::<><><>0<>0<><>::uid://ca7ayd2btryec::::res://Escenas/Objetos a Recolectar/tronco.png<>uid://blt2ker7etqws::::res://Escenas/Objetos a Recolectar/objeto_oculto.gd
+obj_recolectar.gd::GDScript/GDScript::3714784110846678395::1754798000::0::1::::ObjetoR<>Area2D<><>0<>0<><>::
+obj_recolectar.tscn::PackedScene::186894292820498839::1754802497::0::1::::<><><>0<>0<><>::uid://cnkch32tbhhb3::::res://Escenas/Objetos a Recolectar/Egg_item.png<>uid://bs6p7map1flt8::::res://Escenas/Objetos a Recolectar/obj_recolectar.gd
+tronco.png::CompressedTexture2D/CompressedTexture2D::4838944513921123970::1754798000::1754802477::1::::<><><>0<>0<>177c2f48bd57c2a28759a3690176c100<>res://.godot/imported/tronco.png-8034bacbc8ea755ff6da4fcbfb838210.ctex::
+::res://Escenas/Paredes/::1754803149
+paredH.png::CompressedTexture2D/CompressedTexture2D::598996609227229611::1754798000::1754802477::1::::<><><>0<>0<>fefc032023a61faa6d4536797525c496<>res://.godot/imported/paredH.png-a74e39d6ed5de31041862920fcc7393b.ctex::
+paredh.tscn::PackedScene::2338485302497458927::1754802497::0::1::::<><><>0<>0<><>::uid://isfne7qimx4v::::res://Escenas/Paredes/paredH.png
+paredV.png::CompressedTexture2D/CompressedTexture2D::6173365963169846583::1754798000::1754802477::1::::<><><>0<>0<>dfa77a9281bb755466b10d5cc4cf11d1<>res://.godot/imported/paredV.png-6a9832077ad2f24d3240ccbeb97fe5df.ctex::
+paredV.tscn::PackedScene::5456869771826522246::1754802497::0::1::::<><><>0<>0<><>::uid://ct7oo2n3yn16j::::res://Escenas/Paredes/paredV.png
+::res://Escenas/Personaje/::1754803570
+gato.png::CompressedTexture2D/CompressedTexture2D::3800494183445605425::1754798000::1754802477::1::::<><><>0<>0<>26dd56f17b3ed509ac1c6dc3218f00a4<>res://.godot/imported/gato.png-dddb68794a699c195ebaca7f24c45c19.ctex::
+personaje.gd::GDScript/GDScript::631054342372094402::1754798000::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
+personaje.tscn::PackedScene::8099640354884423792::1754802497::0::1::::<><><>0<>0<><>::uid://bue8t4bi8pasf::::res://Escenas/Personaje/gato.png
