@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1754805390
+button.gd::GDScript/GDScript::4526751131991731872::1754801790::0::1::::<>Button<><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::5454003224033605850::1754801790::1754802340::1::::<><><>0<>0<>698ba69ef1ab62903ceae80e42c1369d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://asset/::1754802340
+finalcasaaaa.png::CompressedTexture2D/CompressedTexture2D::212498475945441016::1754801790::1754802340::1::::<><><>0<>0<>5e057138d4db8be200f998562f66cbaa<>res://.godot/imported/finalcasaaaa.png-27d13919e40089acd7cf31d69d4ff0ce.ctex::
+tilemaps-cuartos.png::CompressedTexture2D/CompressedTexture2D::6373194345311567759::1754801790::1754802340::1::::<><><>0<>0<>1c04613c04948f67d28bf61d23a7281f<>res://.godot/imported/tilemaps-cuartos.png-35e8fa888aa1db56bc7fcffb1862898b.ctex::
+::res://asset/sprites/::1754802340
+Untitled 07-31-2025 01-24-46.png::CompressedTexture2D/CompressedTexture2D::8539604916440621087::1754801790::1754802340::1::::<><><>0<>0<>defa7d8a514f3899d686bbf956999395<>res://.godot/imported/Untitled 07-31-2025 01-24-46.png-7adf259e11e8d9baab69dde6e3739296.ctex::
+::res://scene/::1754801790
+ajustes.tscn::PackedScene/PackedScene::6359254341867082153::1754801790::0::1::::<><><>0<>0<><>::uid://b5q16u274h8ka::::res://button.gd
+control.tscn::PackedScene/PackedScene::8670984455836100485::1754801790::0::1::::<><><>0<>0<><>::uid://b5q16u274h8ka::::res://button.gd
+menú.gd::GDScript/GDScript::2736111226602135714::1754801790::0::1::::<>Control<><>0<>0<><>::
+menú.tscn::PackedScene/PackedScene::4342405673092115261::1754801790::0::1::::<><><>0<>0<><>::uid://be8nl8c7o50wc::::res://scene/menú.gd
+nivel.tscn::PackedScene/PackedScene::6567525216210186220::1754801790::0::1::::<><><>0<>0<><>::uid://cw2htyf1wir2v::::res://asset/tilemaps-cuartos.png<>uid://b5q16u274h8ka::::res://button.gd
+nivel_art_original.tscn::PackedScene/PackedScene::1793163916058289821::1754801790::0::1::::<><><>0<>0<><>::uid://da623uf7ieai::::res://asset/finalcasaaaa.png<>uid://b5q16u274h8ka::::res://button.gd
+player.tscn::PackedScene/PackedScene::8926427111004039111::1754801790::0::1::::<><><>0<>0<><>::uid://dtwwbsnljbd4b::::res://asset/sprites/Untitled 07-31-2025 01-24-46.png
