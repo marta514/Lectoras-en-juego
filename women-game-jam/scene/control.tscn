@@ -39,14 +39,19 @@ offset_left = -141.0
 offset_right = 144.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "ARTISTAS:
-Clemn
+text = "DESARROLADORES.
 
-ESCRITORA:
-greencapi
+Concepto y narrativa:
 
-programadoras:
-MG Monsivais
-MarGon"
+Diseño del Juego:
+
+Programación y Desarrollo Técnico :
+
+Arte y Diseño Técnico y Visual:
+
+Audio y Música:
+
+Producción y Gestión:
+"
 
 [connection signal="pressed" from="regresar" to="regresar" method="_on_pressed"]
